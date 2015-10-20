@@ -1,0 +1,13 @@
+.msg{
+    background-color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3C3428;
+    min-height: 50px;
+    padding: 5%;
+    border: 1px solid #D3D1CD;
+    margin: 0 10%;
+    width: 80%;
+}

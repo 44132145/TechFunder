@@ -1,0 +1,52 @@
+.activeForm{ margin-left: 18%; margin-top: 20px; width: 62%; min-width: 714px; background: #FFFFFF; border: 2px solid #D3D3D3; padding-top: 40px; padding-bottom: 10px}
+.activeForm form >  div{ padding: 0 0; margin: 0;}
+.activeForm div input{ margin: 0 0; height: 30px;}
+
+.activeForm .col-sm-3{ width:35%; text-transform: uppercase; font-size: 12px;}
+.activeForm .col-sm-6{ width: 30%; height: 32px;}
+.activeForm .help-block{ margin-left: -200px;  margin-top: -18px;  position: absolute;}
+.activeForm .form-horizontal .control-label{ padding-top: 0;}
+
+#dateBlock{ width: 100%;}
+#dateBlock select{ margin: 0 1%;height: 30px; text-align: center; }
+#dateBlock #date_yy{ width: 40%;}
+#dateBlock #date_mm{ width: 24%;}
+#dateBlock #date_dd{ width: 24%;}
+
+#submit_button{
+    background: rgba(0, 0, 0, 0) url("/img/elements.png") repeat scroll 149px -12px;
+    height: 35px;
+    margin-left: 535px;
+    margin-top: -100px;
+    padding: 0;
+    position: absolute;
+    width: 100px;
+}
+
+#submit_button button{background:none; color: #FFFFFF; font-weight: bold; border: none;  font-size: 27px; width: 100%;}
+
+#stepNumber{
+    background: rgba(0, 0, 0, 0) url("/img/elements.png") no-repeat scroll 3px -2px / 369% auto;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 32px;
+    margin: -57px 15px;
+    padding: 2px;
+    position: absolute;
+    text-align: center;
+    width: 164px;
+}
+#InfoLine{
+    background: rgba(0, 0, 0, 0) url("/img/elements.png") no-repeat scroll -179px -5px / 194% auto;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    height: 46px;
+    margin: -57px 397px;
+    position: absolute;
+    text-align: center;
+    width: 327px;
+    padding: 4px;
+}
+

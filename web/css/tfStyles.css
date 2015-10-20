@@ -1,0 +1,44 @@
+.background{  background: url('/img/background.png') 0 repeat;  height: 95%;  width: 100%; min-height: 620px;}
+
+.navRow{  background: url('/img/nawbackground.png') 0 no-repeat; background-size: 100%;}
+.navRow>div{min-width: 1000px}
+.logo{  background: url('/img/logo.png') 0 no-repeat; height: 68px; width: 340px; position: absolute;}
+
+/*.navButton{display: inline-table;}*/
+.navButton li{  background: url('/img/navButton.png') 0 no-repeat; background-size: 100% 30px;  margin-top: 5px;  padding: 10px; display: inline-table;}
+.navButton li a{  color: #118282;  font-size: 15px;  font-weight: bold;  margin-top: -10px;  padding-bottom: 0; text-transform: uppercase;}
+.navButton li a:hover{background-color: inherit}
+
+
+#infoBlock{ display: inline-flex;  font-weight: bold;  margin-left: 18%;  width: 64%; min-width: 960px;}
+
+#steps-info{ margin-right: 100px;}
+#steps-info span{ color: #3C3428; text-transform: uppercase}
+#steps-info span b{ color: #118282}
+
+#infoBlock ul{ list-style: none; padding: 10px;}
+#infoBlock ul li{ margin-top: 5px}
+.listCircle{ background: #118282 none repeat scroll 0 0;  border: 1px solid #118282;  border-radius: 10px;  color: #ffffff;  display: inline-table;  font-size: 13px;  font-weight: 100;  text-align: center;  width: 20px;}
+
+#timer{ background-color: #ffffff;  border: 2px solid #d3d1cd;  height: 115px;  padding: 10px 20px;  position: absolute;  width: 325px;}
+#timer .lable{ font-weight: bold; color: #0B8185}
+#timer #lable{ color: #118282; font-size: 14px;}
+#timer #SecondsNumber{ color: #118282;}
+#timer span { color: #E1E1E1; font-size: 36px;}
+
+.TFfooter{   background: #2f251b none repeat scroll 0 0;  bottom: 5px;  height: 25px;  position: relative;  width: 100%;  text-align: center;}
+
+.TFfooter span{ color: #A29D9B; position: relative;  top: 5px; font-weight: bold}
+
+.bonnus {  background: #ffffff none repeat scroll 0 0;
+    border: 2px solid #d3d3d3;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 18%;
+    margin-top: 20px;
+    min-width: 714px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    text-align: center;
+    width: 62%;}
+.bonnus video{position: relative; max-height: 220px}
