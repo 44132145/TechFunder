@@ -91,4 +91,9 @@ class SiteController extends Controller
             return $this->goHome();
     }
 
+    public function actionTest($id = null)
+    {
+        return $this->render('test', ['cat' => $id]);
+    }
+
 }

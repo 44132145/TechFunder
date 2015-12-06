@@ -1,4 +1,4 @@
-.background{  background: url('/img/background.png') 0 repeat;  height: 95%;  width: 100%; min-height: 620px;}
+.background{  background: url('/img/background.png') 0 repeat;  height: 95%;  width: 100%; min-height: 620px; min-width: 1000px;}
 
 .navRow{  background: url('/img/nawbackground.png') 0 no-repeat; background-size: 100%;}
 .navRow>div{min-width: 1000px}
