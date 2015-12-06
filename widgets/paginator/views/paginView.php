@@ -1,22 +1,33 @@
 <?
 use yii\helpers\Url;
 
-for ($i = 0; $i < count($categor); $i++ )
+//------------ 4 test -------------
+print "<hr>";
+for ($i = 0; $i < count($categoryesAll); $i++ )
 {
-    $cIndex = ($categor[$i]['market_cat'] = $category)? $i: 1;
-
     ?>
-    <a href="<?= Url::to('/site/test/'.$categor[$i]['market_cat'])?>"><?=$categor[$i]['market_cat'];?></a>&nbsp;
+    <a href="<?= Url::to('/site/test/'.$categoryesAll[$i]['market_cat'])?>"><?=$categoryesAll[$i]['market_cat'];?></a>&nbsp;
     <?
 }
+print "<hr>";
+//----------------------------------------
 
-print "paginViews<hr>";
+//print "<pre>"; var_dump($data); print "</pre>";
+?>
 
-
-print "<pre>"; var_dump($data); print "</pre>";
-
-for ($j = 1; $j <= $cNum; $j++)
+<table style="width: 100%">
+<?
+for ($i = 0; $i < count($data); $i++)
 {
-    print "<button onclick='location.href =\"".Url::to('/site/test/' . $categor[$cIndex]['market_cat'].'?page='.$j)."\"'>{$j}</button>";
+    ?>
+       <tr>
+           <td><?=$data[$i]['market_cat']?></td>
+           <td><?=$data[$i]['offer_id']?></td>
+           <td><?=$data[$i]['title']?></td>
+           <td><?=$data[$i]['price_now']?></td>
+       </tr>
+    <?
 }
 ?>
+</table>
+<?=$pButton;?>
